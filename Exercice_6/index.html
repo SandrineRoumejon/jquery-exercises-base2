@@ -16,7 +16,21 @@
   <div class="color blue" id="blue"></div>
 </div>
 <script>
-
+$('#green').hover(function(){
+  $('#texte').css({'color':'green'});
+}, function(){
+  $('#texte').css({'color': 'black'});
+});
+$('#red').hover(function(){
+  $('#texte').css({'color':'red'});
+}, function(){
+  $('#texte').css({'color': 'black'});
+});
+$('#blue').hover(function(){
+  $('#texte').css({'color':'blue'});
+}, function(){
+  $('#texte').css({'color': 'black'});
+});
 </script>
 </body>
 </html>

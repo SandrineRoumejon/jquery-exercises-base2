@@ -12,7 +12,19 @@
     <button type="button" name="button" >Envoyer</button>
   </form>
   <script>
-
+  $('#nom, #prenom').css({
+    'border': 'solid 1px red'
+  });
+ $('#nom').hover(function(){
+   $('#nom').css({'border': 'solid 1px green'})
+ }, function(){
+   $('#nom').css({'border': 'solid 1px red'});
+ });
+   $('#prenom').hover(function(){
+     $('#prenom').css({'border': 'solid 1px green'});
+ }, function(){
+   $('#prenom').css({'border':'solid 1px red'});
+   });
   </script>
 </body>
 </html>
